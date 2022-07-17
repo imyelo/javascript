@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "@yelo/jsconfigs",
+  "version": "0.0.0",
+  "author": "Yelo <zhihuzeye@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*/*"
+  ],
+  "devDependencies": {
+    "@yelo/eslint-config": "*",
+    "@yelo/prettier-config": "*",
+    "@yelo/tsconfig": "*"
+  },
+  "prettier": "@yelo/prettier-config"
+}

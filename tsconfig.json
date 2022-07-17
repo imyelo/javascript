@@ -1,0 +1,6 @@
+{
+  "extends": "@yelo/tsconfig",
+  "compilerOptions": {
+    "noEmit": true
+  }
+}
