@@ -6,6 +6,7 @@
     "index.js"
   ],
   "license": "MIT",
+  "repository": "github:imyelo/javascript",
   "engines": {
     "node": ">=16"
   },
