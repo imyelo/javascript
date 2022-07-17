@@ -22,6 +22,7 @@ module.exports = {
     'arrow-body-style': 'off',
     'no-nested-ternary': 'off',
     'no-implicit-coercion': 'off',
+    'no-restricted-syntax': 'off',
     'no-underscore-dangle': ['error', { allowAfterThis: true }],
     'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': 'off',
