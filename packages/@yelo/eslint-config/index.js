@@ -12,7 +12,6 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'airbnb',
     'prettier',
-    'prettier/@typescript-eslint',
   ],
   plugins: ['@typescript-eslint', 'import', 'react-hooks'],
   rules: {
