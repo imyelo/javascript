@@ -2,14 +2,16 @@
   "$schema": "http://json.schemastore.org/tsconfig",
   "compilerOptions": {
     "module": "Node16",
+    "moduleResolution": "Node16",
     "lib": ["ES2022", "DOM"],
     "target": "ES2017",
-    "moduleResolution": "Node16",
     "allowJs": true,
     "checkJs": true,
     "jsx": "react",
     "noImplicitAny": false,
     "esModuleInterop": true,
-    "pretty": true
+    "pretty": true,
+    "skipLibCheck": true,
+    "declaration": true
   }
 }
