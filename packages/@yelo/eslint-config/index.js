@@ -53,6 +53,8 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/issues/2540
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
+    "no-redeclare": "off",
+    "@typescript-eslint/no-redeclare": ["error"],
   },
   overrides: [
     {
