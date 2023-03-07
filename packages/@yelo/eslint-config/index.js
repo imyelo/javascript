@@ -39,6 +39,7 @@ module.exports = {
     ],
     // https://github.com/import-js/eslint-plugin-import/issues/2111
     'import/no-unresolved': 'off',
+    'import/extensions': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
     'jsx-a11y/click-events-have-key-events': 'off',
     'react/jsx-filename-extension': ['warn', { extensions: ['.jsx', '.tsx'] }],
