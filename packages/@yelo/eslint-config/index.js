@@ -13,7 +13,7 @@ module.exports = {
     'airbnb',
     'prettier',
   ],
-  plugins: ['@typescript-eslint', 'import', 'react-hooks'],
+  plugins: ['@typescript-eslint', 'import', 'react-hooks', 'simple-import-sort'],
   rules: {
     'no-void': 'off',
     'no-empty': 'off',
@@ -42,6 +42,13 @@ module.exports = {
     'import/extensions': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
     'jsx-a11y/click-events-have-key-events': 'off',
+    'react/function-component-definition': [
+      'error',
+      {
+        namedComponents: 'arrow-function',
+        unnamedComponents: 'arrow-function',
+      },
+    ],
     'react/jsx-filename-extension': ['warn', { extensions: ['.jsx', '.tsx'] }],
     'react/jsx-props-no-spreading': 'off',
     'react/jsx-curly-newline': 'off',
@@ -54,8 +61,35 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/issues/2540
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
-    "no-redeclare": "off",
-    "@typescript-eslint/no-redeclare": ["error"],
+    'no-redeclare': 'off',
+    '@typescript-eslint/no-redeclare': ['error'],
+    'simple-import-sort/imports': [
+      'error',
+      {
+        groups: [
+          [
+            // react
+            '^react',
+            // node builtin
+            '^node:',
+            // others
+            '^@?\\w',
+            '^@src',
+            // side effects
+            '^\\u0000',
+            // parent
+            '^\\.\\.(?!/?$)',
+            '^\\.\\./?$',
+            // same directory
+            '^\\./(?=.*/)(?!/?$)',
+            '^\\.(?!/?$)',
+            '^\\./?$',
+            // assets
+            '^.+\\.?(css|jpg|png|svg)$',
+          ],
+        ],
+      },
+    ],
   },
   overrides: [
     {
