@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "main": "index.js",
   "files": [
-    "index.js"
+    "*.js"
   ],
   "license": "MIT",
   "repository": "github:imyelo/javascript",
