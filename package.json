@@ -1,7 +1,7 @@
 {
   "private": true,
   "workspaces": [
-    "packages/*/*"
+    "packages/@yelo/*"
   ],
   "name": "@yelo/javascript",
   "version": "0.0.0",
