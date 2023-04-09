@@ -1,16 +1,30 @@
 {
   "private": true,
+  "workspaces": [
+    "packages/*/*"
+  ],
   "name": "@yelo/javascript",
   "version": "0.0.0",
   "author": "Yelo <zhihuzeye@gmail.com>",
   "license": "MIT",
-  "workspaces": [
-    "packages/*/*"
-  ],
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "prettier": "@yelo/prettier-config",
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,md,html,css}": [
+      "prettier-eslint --write"
+    ]
+  },
   "devDependencies": {
     "@yelo/eslint-config": "*",
     "@yelo/prettier-config": "*",
-    "@yelo/tsconfig": "*"
-  },
-  "prettier": "@yelo/prettier-config"
+    "@yelo/tsconfig": "*",
+    "eslint": "^8.38.0",
+    "husky": "^8.0.3",
+    "lerna": "^6.6.1",
+    "lint-staged": "^13.2.1",
+    "prettier": "^2.8.7",
+    "prettier-eslint-cli": "^6.0.1"
+  }
 }
