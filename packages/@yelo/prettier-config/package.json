@@ -7,11 +7,15 @@
   ],
   "license": "Apache-2.0",
   "repository": "github:imyelo/javascript",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "engines": {
     "node": ">=16"
   },
   "peerDependencies": {
     "prettier": ">2"
   },
-  "gitHead": "34c2e7708e70aab050a6cb684e9976e7105df25a"
+  "gitHead": "3b12940e746827c1685d187bce295b39ecb3f889"
 }
