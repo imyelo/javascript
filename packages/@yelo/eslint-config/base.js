@@ -13,7 +13,7 @@ module.exports = {
     'airbnb',
     'prettier',
   ],
-  plugins: ['@typescript-eslint', 'import', 'react-hooks', 'simple-import-sort'],
+  plugins: ['@typescript-eslint', 'import', 'react-hooks', 'hooks', 'simple-import-sort'],
   rules: {
     'no-void': 'off',
     'no-empty': 'off',
@@ -45,7 +45,7 @@ module.exports = {
     'react/require-default-props': 'off',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    'hooks/sort': 'error',
+    'hooks/sort': 'warn',
     'implicit-arrow-linebreak': 'off',
     // allow param reassign with immer
     'no-param-reassign': ['error', { props: true, ignorePropertyModificationsFor: ['draft'] }],
