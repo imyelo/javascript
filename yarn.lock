@@ -2025,6 +2025,13 @@ eslint-module-utils@^2.7.3:
     debug "^3.2.7"
     find-up "^2.1.0"
 
+eslint-plugin-hooks@^0.4.3:
+  version "0.4.3"
+  resolved "https://verdaccio.sodalife.club/eslint-plugin-hooks/-/eslint-plugin-hooks-0.4.3.tgz#3c4a2c1390ab4b65692d25d04259ee68dab72427"
+  integrity sha512-Ra/YMBoTVFlM3zcU0c3vW8WQnauDyj/zVGnx6MUlIHaIMdZ/fZcptA20rotOGpRxZDQhReTlCYzz8BQmteJNWw==
+  dependencies:
+    requireindex "~1.2.0"
+
 eslint-plugin-import@^2.26.0:
   version "2.26.0"
   resolved "https://mirrors.cloud.tencent.com/npm/eslint-plugin-import/-/eslint-plugin-import-2.26.0.tgz#f812dc47be4f2b72b478a021605a59fc6fe8b88b"
@@ -5168,6 +5175,11 @@ requireindex@~1.1.0:
   version "1.1.0"
   resolved "https://mirrors.cloud.tencent.com/npm/requireindex/-/requireindex-1.1.0.tgz#e5404b81557ef75db6e49c5a72004893fe03e162"
   integrity sha1-5UBLgVV+91225JxacgBIk/4D4WI=
+
+requireindex@~1.2.0:
+  version "1.2.0"
+  resolved "https://verdaccio.sodalife.club/requireindex/-/requireindex-1.2.0.tgz#3463cdb22ee151902635aa6c9535d4de9c2ef1ef"
+  integrity sha512-L9jEkOi3ASd9PYit2cwRfyppc9NoABujTP8/5gFcbERmo5jUoAKovIC3fsF17pkTnGsrByysqX+Kxd2OTNI1ww==
 
 resolve-cwd@^3.0.0:
   version "3.0.0"

@@ -45,6 +45,7 @@ module.exports = {
     'react/require-default-props': 'off',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+    'hooks/sort': 'error',
     'implicit-arrow-linebreak': 'off',
     // allow param reassign with immer
     'no-param-reassign': ['error', { props: true, ignorePropertyModificationsFor: ['draft'] }],
