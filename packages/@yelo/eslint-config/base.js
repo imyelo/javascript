@@ -31,6 +31,7 @@ module.exports = {
     'import/extensions': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
     'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-quotes': ['error', 'prefer-double'],
     'react/function-component-definition': [
       'error',
       {
