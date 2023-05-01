@@ -40,6 +40,7 @@ module.exports = {
       },
     ],
     'react/jsx-filename-extension': ['warn', { extensions: ['.jsx', '.tsx'] }],
+    'react/jsx-no-useless-fragment': ['error', { allowExpressions: true }],
     'react/jsx-props-no-spreading': 'off',
     'react/jsx-curly-newline': 'off',
     'react/require-default-props': 'off',
