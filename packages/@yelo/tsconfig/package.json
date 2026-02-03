@@ -1,6 +1,6 @@
 {
   "name": "@yelo/tsconfig",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "license": "Apache-2.0",
   "repository": "github:imyelo/javascript",
   "publishConfig": {
