@@ -7,14 +7,14 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "main": "tsconfig.json",
+  "main": "tsconfig.base.json",
   "exports": {
     ".": "./tsconfig.base.json",
     "./next": "./tsconfig.next.json"
   },
   "files": [
-    "base.tsconfig.json",
-    "next.tsconfig.json"
+    "tsconfig.base.json",
+    "tsconfig.next.json"
   ],
   "engines": {
     "node": ">=16"
