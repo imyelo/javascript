@@ -1,6 +1,10 @@
 {
   "extends": "@yelo/tsconfig",
   "compilerOptions": {
-    "noEmit": true
-  }
+    "noEmit": true,
+    "paths": {
+      "@/*": ["./packages/*"]
+    }
+  },
+  "include": ["packages/**/*"]
 }

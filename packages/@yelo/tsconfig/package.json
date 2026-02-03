@@ -1,6 +1,6 @@
 {
   "name": "@yelo/tsconfig",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "license": "Apache-2.0",
   "repository": "github:imyelo/javascript",
   "publishConfig": {
@@ -8,8 +8,13 @@
     "access": "public"
   },
   "main": "tsconfig.json",
+  "exports": {
+    ".": "./tsconfig.base.json",
+    "./next": "./tsconfig.next.json"
+  },
   "files": [
-    "tsconfig.json"
+    "base.tsconfig.json",
+    "next.tsconfig.json"
   ],
   "engines": {
     "node": ">=16"

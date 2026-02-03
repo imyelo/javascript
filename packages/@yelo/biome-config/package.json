@@ -1,0 +1,22 @@
+{
+  "name": "@yelo/biome-config",
+  "version": "0.1.0",
+  "main": "base.biome.json",
+  "exports": {
+    ".": "./base.biome.json",
+    "./next": "./next.biome.json"
+  },
+  "files": [
+    "base.biome.json",
+    "next.biome.json"
+  ],
+  "license": "Apache-2.0",
+  "repository": "github:imyelo/javascript",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
