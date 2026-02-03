@@ -3,12 +3,10 @@
   "version": "0.1.2",
   "main": "base.biome.json",
   "exports": {
-    ".": "./base.biome.json",
-    "./next": "./next.biome.json"
+    ".": "./base.biome.json"
   },
   "files": [
-    "base.biome.json",
-    "next.biome.json"
+    "base.biome.json"
   ],
   "license": "Apache-2.0",
   "repository": "github:imyelo/javascript",
