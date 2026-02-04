@@ -8,7 +8,7 @@
   "author": "Yelo <zhihuzeye@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "release": "lerna publish"
   },
   "lint-staged": {
@@ -20,7 +20,7 @@
     "@biomejs/biome": "^2.3.14",
     "@yelo/biome-config": "*",
     "@yelo/tsconfig": "*",
-    "husky": "^8.0.3",
-    "lerna": "^6.6.1"
+    "husky": "^9.1.7",
+    "lerna": "^9.0.3"
   }
 }
