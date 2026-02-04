@@ -10,10 +10,12 @@
   "main": "tsconfig.base.json",
   "exports": {
     ".": "./tsconfig.base.json",
+    "./bun": "./tsconfig.bun.json",
     "./next": "./tsconfig.next.json"
   },
   "files": [
     "tsconfig.base.json",
+    "tsconfig.bun.json",
     "tsconfig.next.json"
   ],
   "engines": {
